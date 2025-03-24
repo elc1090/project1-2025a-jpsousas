@@ -1,0 +1,21 @@
+#informacaoAtendimento{
+    background-color: #ff88db;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    display: flex;
+    height: 20px;
+    width: 100%;
+}
+
+#Cabecalho {
+    width: 100%;
+    background-color: blue;
+}
+
+.numeroContato {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Roboto",sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
