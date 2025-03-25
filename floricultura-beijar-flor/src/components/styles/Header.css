@@ -1,21 +1,67 @@
 #informacaoAtendimento{
-    background-color: #ff88db;
+    background-color: #fcb9e8ad;
     align-items: center; /* Alinha os itens verticalmente ao centro */
     justify-content: center; /* Alinha os itens horizontalmente ao centro */
     display: flex;
-    height: 20px;
+    height: 25px;
     width: 100%;
 }
-
+.Espaco {
+    height: 1px;
+    width: 1px;
+}
 #Cabecalho {
     width: 100%;
-    background-color: blue;
 }
 
 .numeroContato {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 14%;
+    padding-right: 15%;
+    font-family: "Roboto",sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    color: rgb(39, 38, 38);
+}
+
+#BarraDeBusca {
+    display: flex;
+}
+
+#BarraDePesquisa {
+    height: 40px;
+    width: 450px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 3%;
+    margin-right: 5%;
     font-family: "Roboto",sans-serif;
     font-weight: bolder;
     font-size: 15px;
+    
+}
+
+#Logo {
+    margin-left: 13%;
+    margin-right: 4%;
+}
+
+#RastreamentoDoPedido {
+    margin-top: 4%;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-family: "Roboto",sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(39, 38, 38);
+}
+
+#LogoCarrinhoDeCompras {
+    margin-top: 3.4%;
+    margin-right: 5%;
+    size: 50px;
+}
+
+#NavBar {
+    background-color: blue;
+    width: 100%;
 }
