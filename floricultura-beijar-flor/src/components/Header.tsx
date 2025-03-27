@@ -2,6 +2,8 @@ import './styles/Header.css'
 import { FaWhatsapp } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { LuShoppingCart } from "react-icons/lu";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 function Header () {
     return <header id='Cabecalho'>
@@ -17,20 +19,48 @@ function Header () {
                     <p id="RastreamentoDoPedido">Acompanhar seu Pedido</p>
                     <figure id='LogoCarrinhoDeCompras'><LuShoppingCart size={"32px"} color='rgb(39, 38, 38)'/></figure>
                 </div>
-                <div id='NavBar'>
-                    
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div id='NavBarContainer'>
+                    <div id="NavBarConteudo">
+                        <div id="NavBarBotoesItens">
+                            <div className='botaoNavBar'>
+                                <a>Início</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Box</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Campo</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Cesta <IoIosArrowForward/></a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Combo</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Fúnebre Coroa</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Girassóis</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Planta</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Rosa Colorida</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Rosa Vermelha</a>
+                            </div>
+                            <div className='botaoNavBar'>
+                                <a>Complementos</a>
+                            </div>
+                        </div>
+                        <div id='botaoCidadesAtendidas'>
+                            <a>Cidades Atendidas</a>
+                            <IoIosArrowForward/>
+                        </div>
+                    </div>
                 </div>
                 <div></div>
             </header>

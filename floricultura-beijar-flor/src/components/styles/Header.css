@@ -61,7 +61,38 @@
     size: 50px;
 }
 
-#NavBar {
-    background-color: blue;
+#NavBarContainer {
+    background-color: teal;
+    display: flex;
     width: 100%;
+}
+#NavBarBotoesItens {
+    background-color: rgb(236, 46, 220);
+    display: flex;
+    height: 72px;
+    width: 100%;
+    margin-right: 200px;
+}
+#NavBarConteudo{
+    background-color: rgb(236, 46, 220);
+    display: flex;
+    height: 72px;
+    width: 1000px;
+    margin-left: 19%;
+}
+
+.botaoNavBar {
+    background-color: aquamarine;
+    flex: none;
+    width: 10%;
+    height: 50%;
+    text-align: center;
+}
+
+#botaoCidadesAtendidas {
+    background-color:pink;
+    height: 72px;
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
 }
