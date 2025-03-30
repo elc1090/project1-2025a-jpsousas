@@ -12,6 +12,9 @@ import { useRef, useState } from 'react';
 interface FadeMenuProps {
   buttonLabel: string;    // Nome do botão
   menuItems: string[];    // Lista dos itens do menu
+  bgColor: string;
+  hoveredBgColor: string;
+  height: number;
 }
 
   declare module '@mui/material/styles' {
@@ -38,28 +41,25 @@ const theme = createTheme({
         dark: '#A52C55',
       },
     },
-    components: {
-        MuiButton: {
-            defaultProps: {
-                variant: "text",
-                color: "pinkish",
-                sx: {
-                    textTransform: "capitalize",
-                    borderRadius: 0,
-                    ":active": {
-                        backgroundColor: "#800f34",
-                    },
-                    ":hover": {
-                        backgroundColor: "#800f34",
-                    }
-                },
-                
-            },
-        },
-    },
 });
 
-export default function FadeMenu({ buttonLabel, menuItems }: FadeMenuProps) {
+function SetaCoresCasoHajaUma(color: string){
+  return color? color : undefined
+}
+
+function SetaValorCasoHajaUm(number: number){
+  return number? number : undefined
+}
+
+/**
+ * 
+ * @param {string} buttonLabel - Texto do botao
+ * @param {string[]} menuItems - Itens que serao mostrados no dropdown
+ * @param {string} bgColor - Cor default do botao 
+ * @param {string} hoveredBgColor - Cordo botao ao sofrer um hover
+ * @returns 
+ */
+export default function FadeMenu({ buttonLabel, menuItems, bgColor, hoveredBgColor, height }: FadeMenuProps) {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const buttonRef = useRef<HTMLButtonElement>(null); // Referência para capturar o botão
@@ -86,6 +86,19 @@ export default function FadeMenu({ buttonLabel, menuItems }: FadeMenuProps) {
         aria-expanded={open ? 'true' : undefined} 
         onClick={handleClick}
         variant='text'
+        color="pinkish"
+        sx= {{
+          textTransform: "capitalize",
+          borderRadius: 0,
+          height: SetaValorCasoHajaUm(height),
+          backgroundColor: SetaCoresCasoHajaUma (bgColor),
+          ":active": {
+              backgroundColor: SetaCoresCasoHajaUma (hoveredBgColor),
+          },
+          ":hover": {
+              backgroundColor: SetaCoresCasoHajaUma (hoveredBgColor),
+          }
+        }}
         onMouseEnter={() => setIsHovered(true)}   // Ativa hover
         onMouseLeave={() => setIsHovered(false)}  // Desativa hover
         endIcon={anchorEl || isHovered ? <IoIosArrowDown color='white'></IoIosArrowDown> : <IoIosArrowForward color='white'></IoIosArrowForward>}  // Usa ternário diretamente

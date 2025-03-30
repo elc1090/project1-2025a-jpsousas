@@ -2,8 +2,6 @@ import './styles/Header.css'
 import { FaWhatsapp } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { LuShoppingCart } from "react-icons/lu";
-import { IoIosArrowDown } from "react-icons/io";
-import { IoIosArrowForward } from "react-icons/io";
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -81,7 +79,7 @@ function Header () {
                             <Button className='botaoNavBar' variant='text' color='pinkish'>
                                 <p className='TextoBotaoNavBar'>Campo</p>
                             </Button>
-                            <FadeMenu buttonLabel={'Cestas'} menuItems={["Cervejas","Espumante","Vinho","Café","Chocolates"]}/>
+                            <FadeMenu buttonLabel={'Cestas'} menuItems={["Cervejas","Espumante","Vinho","Café","Chocolates"]} bgColor={''} hoveredBgColor={'#800f34'} height={36}/>
                             <Button className='botaoNavBar' variant='text' color='pinkish'>
                                 <p className='TextoBotaoNavBar'>Combo</p>
                             </Button>
@@ -108,10 +106,20 @@ function Header () {
                             </Button>
                         </ButtonGroup>
                     </div>
+                    <FadeMenu buttonLabel='Cidades Atendidas' 
+                              menuItems={['Alvorada','Porto Alegre','Canoas','Esteio','Sapucaia do Sul','São Leopoldo','Novo Hamburgo','Gravataí','Cachoeirinha','Eldorado do Sul','Guaíba']} 
+                              bgColor={'#800f34'} 
+                              hoveredBgColor={'#800f34'}
+                              height={72}
+                              ></FadeMenu>
+                    {
+                        /**
+                         * <Button id='botaoCidadesAtendidas' endIcon={<IoIosArrowForward/>} color='pinkish'>
+                                <p className='TextoBotaoNavBar'>Cidades Atentidas</p>
+                            </Button>
+                         */
+                    }
                     
-                    <Button id='botaoCidadesAtendidas' endIcon={<IoIosArrowForward/>} color='pinkish'>
-                        <p className='TextoBotaoNavBar'>Cidades Atentidas</p>
-                    </Button>
                 </section>
             </ThemeProvider>   
             </header>
