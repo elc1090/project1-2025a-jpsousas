@@ -114,6 +114,7 @@ export default function FadeMenu({ buttonLabel, menuItems, bgColor, hoveredBgCol
         open={open}
         onClose={handleClose}
         TransitionComponent={Fade}
+        
       >
         {menuItems.map((item, index) => (
           <MenuItem key={index} onClick={handleClose}>

@@ -82,14 +82,7 @@
 }
 
 
-.botaoNavBar {
-    flex: none;
-    width: fit-content;
-    height: 100%;
-    margin-left: 5px;
-    margin-left: 5px;
-    text-align: center;
-}
+
 
 .botaoDropdown {
     flex: none;
@@ -100,13 +93,6 @@
     text-align: center;
 }
 
-#botaoCidadesAtendidas {
-    background-color: #800f34;
-    height: 72px;
-    display: flex;
-    padding-left: 16px;
-    padding-right: 16px;
-}
 
 .TextoBotaoNavBar {
     font-weight: bold;
