@@ -1,20 +1,7 @@
 import { Button, ButtonGroup} from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './styles/Body.css'
-
-interface Product {
-    id: string;
-    code: string;
-    name: string;
-    description: string;
-    image: string;
-    price: number;
-    categories: string[]; // Array de categorias
-    quantity: number;
-    inventoryStatus: 'INSTOCK' | 'LOWSTOCK' | 'OUTOFSTOCK';
-    rating: number;
-};
-
+import CardProdutos from './commons/CardProdutos';
 
 
 declare module '@mui/material/styles' {
@@ -99,84 +86,6 @@ function Body(){
                             </ThemeProvider>
                         </ButtonGroup>
                 </section>
-                <section className="Produtos">
-                    <article className="ProdutosPorCategoria" id="ProdutosEmDestaque">
-                        <h1 className='TituloCategoria'>Produtos em Destaque</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product1"></article>
-                            <article className="Product" id="Product2"></article>
-                        </div>
-                    </article>
-
-                    {/* Categoria: Vermelhos */}
-                    <article className="ProdutosPorCategoria" id="ProdutosVermelhos">
-                        <h1 className='TituloCategoria'>Vermelhos</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product3"></article>
-                            <article className="Product" id="Product4"></article>
-                        </div>
-                    </article>
-
-                    {/* Categoria: Plantas */}
-                    <article className="ProdutosPorCategoria" id="ProdutosPlantas">
-                        <h1 className='TituloCategoria'>Plantas</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product5"></article>
-                            <article className="Product" id="Product6"></article>
-                        </div>
-                    </article>
-
-                    {/* Categoria: Box */}
-                    <article className="ProdutosPorCategoria" id="ProdutosPlantas">
-                        <h1 className='TituloCategoria'>Box</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product7"></article>
-                            <article className="Product" id="Product8"></article>
-                        </div>
-                    </article>
-                    {/* Categoria: Vinho */}
-                    <article className="ProdutosPorCategoria" id="ProdutosPlantas">
-                        <h1 className='TituloCategoria'>Vinho</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product9"></article>
-                            <article className="Product" id="Product10"></article>
-                        </div>
-                    </article>
-
-                    {/* Categoria: Coroa */}
-                    <article className="ProdutosPorCategoria" id="ProdutosPlantas">
-                        <h1 className='TituloCategoria'>Coroa</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product11"></article>
-                            <article className="Product" id="Product12"></article>
-                        </div>
-                    </article>
-
-                    {/* Categoria: Cafe */}
-                    <article className="ProdutosPorCategoria" id="ProdutosPlantas">
-                        <h1 className='TituloCategoria'>Café</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product13"></article>
-                            <article className="Product" id="Product14"></article>
-                        </div>
-                    </article>
-
-                    {/* Categoria: Girassois */}
-                    <article className="ProdutosPorCategoria" id="ProdutosPlantas">
-                        <h1 className='TituloCategoria'>Girassois</h1>
-                        <hr className='Linha'/>
-                        <div className="ProdutoGrid">
-                            <article className="Product" id="Product15"></article>
-                            <article className="Product" id="Product16"></article>
-                        </div>
-                    </article>
-                </section>
+                <CardProdutos/>
            </main>
 } export default Body;

@@ -72,3 +72,61 @@
     height: 0;
     color: #ffe4ed;
 }
+
+#ContainerPrecoBotaoComprar {
+    border: solid 0.01em;
+    border-color: #d5c4ca;
+    display: flex;
+    align-items: center;
+    width: 256px;
+    padding-left: 2%;
+}
+
+#LabelBotaoComprar {
+    font-family: "Roboto",sans-serif;
+    font-weight: bolder;
+}
+
+.CardProduto {
+    height: fit-content;
+    width: 269px;
+}
+
+.custom-carousel {
+    border-radius: 0;
+    border: 10px;
+    background-color: #feedf3;
+    height: fit-content;
+}
+
+.ContainerImagem {
+    margin-top: 5px;
+    height: 269px;
+    width: 256px;
+    border: 1px;
+}
+
+.ImagemProduto {
+    height: 100%;
+    width: 100%;
+}
+
+#PrecoProduto {
+    font-family: "Roboto",sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.NomeProduto {
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    padding-inline: 2%;
+    text-align: center;
+}
+
+#ContainerNomeProduto {
+    width: 100%;
+    max-height: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+}

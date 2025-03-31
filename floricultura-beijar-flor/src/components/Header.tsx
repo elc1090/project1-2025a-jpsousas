@@ -118,13 +118,6 @@ function Header () {
                               hoveredBgColor={'#800f34'}
                               height={72}
                               ></FadeMenu>
-                    {
-                        /**
-                         * <Button id='botaoCidadesAtendidas' endIcon={<IoIosArrowForward/>} color='pinkish'>
-                                <p className='TextoBotaoNavBar'>Cidades Atentidas</p>
-                            </Button>
-                         */
-                    }
                     
                 </section>
             </ThemeProvider>   
