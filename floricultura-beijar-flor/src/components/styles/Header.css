@@ -1,5 +1,5 @@
 #informacaoAtendimento{
-    background-color: #fce4ec;
+    background-color: #fce4f8;
     align-items: center; /* Alinha os itens verticalmente ao centro */
     justify-content: center; /* Alinha os itens horizontalmente ao centro */
     display: flex;
@@ -8,15 +8,14 @@
 }
 .Espaco {
     height: 1px;
-    width: 1px;
+    width: 100px;
 }
 #Cabecalho {
     width: 100%;
 }
 
 .numeroContato {
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-left: 13%;
     font-family: "Roboto",sans-serif;
     font-weight: bolder;
     font-size: 12px;
@@ -27,19 +26,7 @@
     display: flex;
 }
 
-#BarraDePesquisa {
-    height: 40px;
-    width: 450px;
-    padding-right: 16px;
-    padding-left: 16px;
-    margin-top: 3%;
-    margin-right: 5%;
-    font-family: "Roboto",sans-serif;
-    font-weight: bolder;
-    font-size: 15px;
-    border-color: #f44336;
-    color: #dc7497;
-}
+
 
 #Logo {
     margin-left: 13%;
@@ -72,17 +59,14 @@
     display: flex;
     height: 72px;
     width: 100%;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 #NavBarConteudo{
     display: flex;
-    padding-left: 16%;
+    padding-left: 12%;
     flex-direction: column;
 }
-
-
-
 
 .botaoDropdown {
     flex: none;

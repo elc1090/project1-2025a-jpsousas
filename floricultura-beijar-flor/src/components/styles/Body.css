@@ -1,0 +1,74 @@
+#Body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SlideBannerImages {
+    height: 400px;
+    width: 1140px;
+}
+
+#BarraDePesquisaContainer {
+    width: 1140px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#BarraDePesquisa {
+    width: 98.8%;
+    font-family: "Roboto",sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    border-color: #ec407a;
+    border: solid 0.01em;
+    color: #dc7497;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#Filtro {
+    height: 72px;
+    width: 1140px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    border: solid 0.01em;
+    border-color: #ec407a;
+    margin-bottom: 25px;
+}
+
+#LegendaFiltro {
+    padding-left: 10px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #800f34;
+}
+
+.LegendaBotaoFiltro {
+    font-family: "Roboto",sans-serif;
+    color: #800f34;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.Produtos {
+    width: 1140px;
+}
+
+.TituloCategoria {
+    font-family: "Roboto",sans-serif;
+    color: #800f34;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.Linha {
+    border-style: solid;
+    height: 0;
+    color: #ffe4ed;
+}
