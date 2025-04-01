@@ -1,0 +1,67 @@
+.Footer {
+    width: 100%;
+    background-color: #fce4f8;
+}
+
+.ContainerFooter {
+    width: 1140px;
+}
+
+.FooterContent {
+    display: flex;
+    margin-left: 18%;
+    margin-bottom: 5px;
+}
+
+.FooterSection {
+    margin-right: 190px;
+}
+
+.TextoFooter {
+    font-family: "Roboto", "sans-serif";
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-family: "Roboto", "sans-serif";
+    font-size: 14px;
+    font-weight: bolder;
+    color: #4c081f;
+}
+
+.FooterBottom {
+    width: 1140px;
+    margin-left: 13.5%;
+}
+
+#TextoEndereco {
+    font-family: "Roboto", "sans-serif";
+    font-size: 14px;
+    font-weight: bolder;
+    color: #4c081f;
+}
+
+.TextoCopyright {
+    font-family: "Roboto", "sans-serif";
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    color: #4c081f;
+}
+
+.TituloSecaoFooter {
+    font-family: "Roboto", "sans-serif";
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #4c081f;
+}

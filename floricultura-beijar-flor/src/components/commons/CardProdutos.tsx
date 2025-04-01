@@ -199,7 +199,7 @@ export default function CardProdutos() {
                     autoplayInterval={0} itemTemplate={productTemplate} />
             </article>
             
-            
+        <br/><br/>
         </section>
     );
 }
