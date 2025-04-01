@@ -7,7 +7,7 @@
 
 
 
-Acesso: Substitua este texto pela URL para acesso ao site publicado
+Acesso: [site](https://elc1090.github.io/project1-2025a-jpsousas/)
 
 
 #### Desenvolvedor(a)
