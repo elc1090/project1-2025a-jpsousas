@@ -9,17 +9,20 @@
 > 6. Entregue este README.md dentro da pasta raiz do seu repositório de entrega. Peça ajuda se não souber como editar ou entregar!
 > Opcional: você pode alterar a formatação do README, mas mantenha todas as informações solicitadas
 
-![Substitua a imagem ao lado por um screenshot do seu projeto](img/chops-ux-step-4.png "Screenshot do projeto. Imagem temporária extraída de https://mdswanson.com/static/chops-ux-step-4.png")
+![image](https://github.com/user-attachments/assets/41c16e5b-d766-447a-ae6e-fe1f4fcce481)
+![image](https://github.com/user-attachments/assets/dc261529-1f0c-469b-9f6f-23a1746c8ed9)
+![image](https://github.com/user-attachments/assets/f1bfd751-b9a5-4fbd-bc49-d69b0188dacb)
+
 
 
 Acesso: Substitua este texto pela URL para acesso ao site publicado
 
 
 #### Desenvolvedor(a)
-Substitua este texto pela sua identificação: nome e curso
+João Pedro Sousa - Sistemas de Informação
 
 #### Cliente
-Substitua este texto pela identificação do cliente
+Álisson Braga Canabarro
 
 
 
@@ -30,34 +33,51 @@ Substitua este texto pela identificação do cliente
 Substitua este texto pela URL do site/app escolhido
 
 ##### Descrição
-Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
+O site recebido foi uma floricultura, foi escolhido React como tecnologia para o desenvolvimento das demandas, tecnicamente simples de reproduzir. 
 
 #### Demanda do(a) cliente
-Substitua este texto pela demanda do(a) cliente
+- Mudar o formato de Grid dos produtos para o formato de lista;
+- Modificar as cores básicas do site (verde, vermelho e amarelo) para tons de rosa;
+- Mover a barra de pesquisas para ficar perto da barra de filtro;
+- Não precisa ter todos os produtos apresentados na pagina original.
 
 #### Desenvolvimento
+O desenvolvimento começou com uma análise inicial do site-alvo, observando os elementos que poderiam compor os componentes necessários no React. A estrutura foi planejada seguindo um modelo clássico: Header | Body | Footer
 
-Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, como você lidou com as demandas, etc.)
+Durante o processo, a paleta de cores foi definida organicamente, explorando tons de rosa que trouxessem harmonia ao design. As principais cores escolhidas foram:
+
+![image](https://github.com/user-attachments/assets/e00a6761-7550-4669-a983-ca84203da6ad)
+![Captura de tela 2025-03-31 213111](https://github.com/user-attachments/assets/22f22647-900c-4189-b421-f0c2e68448c7)
+![Captura de tela 2025-03-31 213111](https://github.com/user-attachments/assets/59ddd728-17ac-494f-ba61-521770e8c23a)
+
+
+
+As imagens exibidas são diretamente extraídas do site original, utilizando apenas seus links.
+
+Como não havia muitas restrições quanto às cores ou à forma de exibição das informações, optei por seguir minha própria intuição, criando um visual que melhor representasse a proposta do projeto.
 
 
 #### Tecnologias
 
-Substitua este trecho por uma lista detalhada de tecnologias usadas (tanto as básicas, como HTML e CSS, como as mais específicas, por exemplo Tailwind, etc.):
-- ...
-- ...
-- 
+- HTML
+- CSS
+- TypeSript
+- React
 
 #### Ambiente de desenvolvimento
 
-Substitua este trecho por uma lista detalhada dos ambientes/ferramentas de desenvolvimento que você usou (por exemplo, VS Code + alguma extensão, etc.)
-- ...
-- ...
+- Visual Studio Code
+- Extensões que apoiaram no desenvolvimento (Color picker e HTML Intelisense)
 
 #### Referências e créditos
 
 Substitua este trecho por uma lista bem detalhada de todo material que você consultou para ajudar no projeto, por exemplo:  URL de templates usados, URL de icon kits usados, créditos para colegas que colaboraram, geradores de código (incluindo alguns prompts usados para o ChatGPT, se for o caso)
-- ...
-- ...
+- ChatGPT
+- DeepSeek
+- [MUI](https://mui.com/material-ui/) para icones e componentes prontos
+- [PrimeReact](https://primereact.org/) para componentes prontos
+- [ReactIcons](https://react-icons.github.io/react-icons/) para icones
+- StackOverFlow
 
 
 
