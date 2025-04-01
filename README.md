@@ -1,14 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-0GsTofh)
 # Projeto: Remake de site/app web
 
-> 1. Leia com atenção as instruções abaixo para editar este README em formato Markdown.
-> 2. Substitua todos os trechos de texto iniciados com "Substitua" por informações do seu projeto, conforme solicitado em cada trecho.
-> 3. Substitua a imagem por um screenshot do projeto (o arquivo pode ser armazenado no repositório ou em URL externa). GIFs animados também são permitidos!
-> 4. Remova todas as instruções de entrega.
-> 5. Double-check: Certifique-se de que seu README.md não contenha instruções de entrega!
-> 6. Entregue este README.md dentro da pasta raiz do seu repositório de entrega. Peça ajuda se não souber como editar ou entregar!
-> Opcional: você pode alterar a formatação do README, mas mantenha todas as informações solicitadas
-
 ![image](https://github.com/user-attachments/assets/41c16e5b-d766-447a-ae6e-fe1f4fcce481)
 ![image](https://github.com/user-attachments/assets/dc261529-1f0c-469b-9f6f-23a1746c8ed9)
 ![image](https://github.com/user-attachments/assets/f1bfd751-b9a5-4fbd-bc49-d69b0188dacb)
@@ -29,8 +21,8 @@ João Pedro Sousa - Sistemas de Informação
 
 #### Site/app original
 
-##### Link
-Substitua este texto pela URL do site/app escolhido
+##### Link site original
+https://www.yumi-flor.com.br/
 
 ##### Descrição
 O site recebido foi uma floricultura, foi escolhido React como tecnologia para o desenvolvimento das demandas, tecnicamente simples de reproduzir. 
